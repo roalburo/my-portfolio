@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Raphaela Alburo</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="page-top">
+        <div class="page-bar" id="navbar">
+            <a class="bar-item page-button hover-black hide-medium hide-large right-side" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu"><i class="fas fa-bars"></i></a>
+            <a href="#home" class="bar-item page-button">Home</a>
+            <a href="#contact" class="bar-item page-button hide-small right-side">Contact</a>
+            <a href="#projects" class="bar-item page-button hide-small right-side">Projects</a>
+            <a href="#aboutme" class="bar-item page-button hide-small right-side">About Me</a>
+        </div>
+        <div id=" nav" class="bar-block white-color hide-this hide-large hide-medium">
+            <a href="#aboutme" class="bar-item page-button" onclick="toggleFunction()">About Me</a>
+            <a href="#projects" class="bar-item page-button" onclick="toggleFunction()">Projects</a>
+            <a href="#contact" class="bar-item page-button" onclick="toggleFunction()">Contact</a>
+        </div>
+    </div>
+    <div id="home" class="background-purple">
+        <img src="images/intro-name.svg" alt="Hi, I'm Raphaela!">
+    </div>
+    <section id="aboutme" class="aboutme-section">
+        <div class="aboutme-container">
+            <div class="aboutme-flex">
+                <div class="aboutme-image">
+                    <img src="images/profile-pic.jpg" alt="Raphaela Alburo" />
+                </div>
+                <div class="aboutme-text">
+                    <h2 style="margin-bottom: 20px; font-size: 2.8rem;">About Me</h2>
+                    <p style="font-size: 1.2rem; line-height: 1.6;">
+                        <br>I'm <strong>Raphaela</strong>, a passionate Computer Science student and aspiring <strong>Back-end Developer</strong> who loves solving problems, learning new technologies, and collaborating with others. I believe in growth through hands-on experience, and I’m always eager to contribute to meaningful software projects.
+                    </p>
+                    <p style="font-size: 1.2rem; line-height: 1.6; margin-top: 30px;">
+                        My goals include building scalable backend systems, exploring different domains in software engineering, and learning from experienced developers in collaborative environments.
+                    </p>
+                </div>
+            </div>
+            <div id="skills" class="skills-container">
+                <h2 class="skills-title">Skills</h2>
+                <div class="skills-list">
+                    <span class="skill-item" data-text="Python"><span>Python</span></span>
+                    <span class="skill-item" data-text="Java"><span>Java</span></span>
+                    <span class="skill-item" data-text="JavaScript"><span>JavaScript</span></span>
+                    <span class="skill-item" data-text="MySQL"><span>MySQL</span></span>
+                    <span class="skill-item" data-text="PostgreSQL"><span>PostgreSQL</span></span>
+                    <span class="skill-item" data-text="HTML & CSS"><span>HTML & CSS</span></span>
+                    <span class="skill-item" data-text="MongoDB"><span>MongoDB</span></span>
+                    <span class="skill-item" data-text="Express.js"><span>Express.js</span></span>
+                    <span class="skill-item" data-text="React"><span>React</span></span>
+                    <span class="skill-item" data-text="Node.js"><span>Node.js</span></span>
+                    <span class="skill-item" data-text="Flutter - Dart"><span>Flutter - Dart</span></span>
+                    <span class="skill-item" data-text="Figma"><span>Figma</span></span>
+                </div>
+            </div>
+            <div id="projects"></div>
+        </div>
+    </section>
+    <div><br><br>
+        <h2 style="color: #000; text-align: center; font-size: 2.8rem;">My Projects</h2><br></div>
+    <section class="projects-section">
+        <div class="projects-grid">
+            <div class="project-wrapper">
+                <div class="project-visual">
+                    <img class="project-image" src="images/billing-and-collection-sytem-dashboard.png" alt="Billing and Collection System Dashboard" />
+                    <div class="project-fan">
+                        <img src="images/billing-and-collection-sytem-dashboard.png" alt="Screenshot 1">
+                    <img src="images/billing-and-collection-sytem-billing.png" alt="Screenshot 2">
+                    <img src="images/billing-and-collection-sytem-unitinfo.png" alt="Screenshot 3">
+                    <img src="images/billing-and-collection-sytem-unitmaint.png" alt="Screenshot 4">
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Billing and Collection System</h3>
+                    <p>A Software Engineering project for CSA Residences under Agreville Realty Corporation. The Billing and Collection System aims to digitalize the recording of tenant contracts and occupancy, rent bills and collections, unit maintenance bills and payments, and creation of invoices.</p>
+                    <p>The software was developed using the MERN stack, which includes MongoDB, Express.js, React, and Node.js.</p>
+                    <p>The system is currently undergoing major changes in the process of reviewing and updating its components to ensure it is ready for deployment.</p>
+                    <a href="https://github.com/roalburo/billing-and-collection-system.git" target="_blank">
+                        <i class="fab fa-github" style="margin-right: 6px;"></i>GitHub
+                    </a>
+                </div>
+              </div>
+              <div class="project-wrapper">
+                <div class="project-visual">
+                    <img class="project-image" src="images/univents-orgs-dboard.png" alt="Univents Organizations Dashboard" style="--f:.12;--r:5px" />
+                    <div class="project-fan">
+                    <img src="images/univents-orgs-dboard.png" alt="Screenshot 1">
+                    <img src="images/univents-events-dboard.png" alt="Screenshot 2">
+                    <img src="images/univents-attendees-dboard.png" alt="Screenshot 3">
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Univents - Web Application</h3>
+                    <p>A Multi-Platform Development project using Flutter based on UI designs from Second Years. Univents is a platform which enables Ateneo de Davao University students to explore, view, and join events, both past and upcoming. The app has a mobile and web component. The web component serves as the admin side, where administrators can manage events and organizations through CRUD operations.</p>
+                    <p>The application is currently being developed through Flutter with Supabase as the backend.</p>
+                    <a href="https://github.com/roalburo/cse1_univents.git" target="_blank">
+                        <i class="fab fa-github" style="margin-right: 6px;"></i>GitHub
+                    </a>
+                    <a href="https://drive.google.com/drive/folders/1PqTsJ-pkbtkmlKsJhicNW5U2nKeCJPkR?usp=sharing" target="_blank">
+                        <i class="fas fa-folder" style="margin-right: 6px;"></i>Screenshots
+                    </a>
+                </div>
+              </div>
+              <div class="project-wrapper">
+                <div class="project-visual">
+                    <img class="project-image" src="images/figma-proto-1.png" alt="BeanXPress Figma Prototype" style="--f:.08;--r:20px" />
+                    <div class="project-fan">
+                    <img src="images/figma-proto-1.png" alt="Screenshot 1">
+                    <img src="images/figma-proto-2.png" alt="Screenshot 2">
+                    <img src="images/figma-proto-3.png" alt="Screenshot 3">
+                    <img src="images/figma-proto-4.png" alt="Screenshot 4">
+                    <img src="images/figma-proto-5.png" alt="Screenshot 5">
+                    <img src="images/figma-proto-6.png" alt="Screenshot 6">
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>BeanXPress Prototype</h3>
+                    <p>A Human Computer Interaction project to create a brief Figma prototype based on Software projects by classmates.</p>
+                    <a href="https://www.figma.com/proto/cuWsXqTLkMbtAtEUscn94t/Agreda_Alburo_Filipinas_HCI-Finals?node-id=109-1712&t=OKj1SiHlxf2q7X8r-1&starting-point-node-id=109%3A1712" target="_blank">
+                        <i class="fab fa-figma" style="margin-right: 6px;"></i>Figma
+                    </a>
+                </div>
+              </div>
+              <div class="project-wrapper">
+                <div class="project-visual">
+                    <img class="project-image" src="images/static-website.png" alt="Good Omens Static Website" style="--f:.04;--r:35px" />
+                    <div class="project-fan">
+                    <img src="images/static-website.png" alt="Screenshot 1">
+                    <img src="images/static-website-2.png" alt="Screenshot 2">
+                    <img src="images/static-website-3.png" alt="Screenshot 3">
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Good Omens Static Website</h3>
+                    <p>An Application Development project that uses HTML and CSS to create and deploy a static website based on subjects of our choosing.</p>
+                    <a href="https://github.com/roalburo/CS-2240.git" target="_blank">
+                        <i class="fab fa-github" style="margin-right: 6px;"></i>Github
+                    </a>
+                    <a href="https://roalburo.github.io/CS-2240/" target="_blank">
+                        <i class="fas fa-link" style="margin-right: 6px;"></i>Link
+                    </a>
+                </div>
+              </div>
+        </div>
+    </section>
+    <div class="contact-title"><h2>Contact Me</h2></div>
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <ul class="contact-list">
+                <li>
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:raphaelaalburo@gmail.com">raphaelaalburo@gmail.com</a>
+                </li>
+                <li>
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+639324080291">0932-408-0291</a>
+                </li>
+                <li>
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/roalburo" target="_blank" rel="noopener">github.com/roalburo</a>
+                </li>
+                <li>
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/raphaela-alburo/" target="_blank" rel="noopener">linkedin.com/in/raphaela-alburo</a>
+                </li>
+                <li>
+                    <i class="fab fa-facebook-square"></i>
+                    <a href="https://www.facebook.com/raphaela.alburo" target="_blank" rel="noopener">facebook.com/raphaela.alburo</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer class="footer">
+        <div style="text-align: center;">
+            <p><br></p>
+            <p>© 2025 Raphaela Alburo. All rights reserved.</p>
+            <p><br></p>
+        </div>
+    </footer>
+    <script>
+        window.onscroll = function() {myFunction()};
+        function myFunction() {
+            var navbar = document.getElementById("navbar");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                navbar.className = "page-bar" + "this-card" + " animate-top" + " white-color";
+            } else {
+                navbar.className = navbar.className.replace("this-card animate-top white-color", "");
+            }
+        }
+        function toggleFunction() {
+            var x = document.getElementById(" nav");
+            if (x.className.indexOf(" show") == -1) {
+                x.className += " show";
+            } else {
+                x.className = x.className.replace(" show", "");
+            }
+        }
+        const skillItems = document.querySelectorAll('.skill-item');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const index = Array.from(skillItems).indexOf(entry.target);
+                entry.target.style.transitionDelay = `${index * 100}ms`;
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            }
+            });
+        }, {
+            threshold: 0.5
+        });
+        skillItems.forEach(item => observer.observe(item));
+    </script>
+</body>
+</html>
